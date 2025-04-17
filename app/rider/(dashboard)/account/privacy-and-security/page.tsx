@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import FormInput from "@/components/FormInput";
 import SuccessModal from "@/components/Overlays/SuccessModal";
 import { Lock } from "@/components/svgs";
