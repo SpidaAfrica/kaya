@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { useEffect, useState } from "react";
 import { Actions, DetailsLayout, ViewMapInFullMode } from "@/app/shared";
 import { MiniMap, MoneyIcon, Stars } from "@/assets";

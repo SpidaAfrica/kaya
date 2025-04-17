@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { Menu } from "lucide-react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import React, { useCallback } from "react";

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";

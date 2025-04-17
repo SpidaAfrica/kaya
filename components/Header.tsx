@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import NavLink from "./Navlink";

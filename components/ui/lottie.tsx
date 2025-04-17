@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
+export const dynamic = "force-dynamic";
 
 import { lazy, Suspense } from "react";
 import { Skeleton } from "./skeleton";

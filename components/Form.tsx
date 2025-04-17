@@ -1,4 +1,5 @@
 // "use client";
+export const dynamic = "force-dynamic";
 // import { cn } from "@/lib/utils";
 // import { Button } from "./ui/button";
 // import Image from "next/image";
@@ -55,6 +56,7 @@
 
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
+export const dynamic = "force-dynamic";
 import { cn } from "@/lib/utils";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";

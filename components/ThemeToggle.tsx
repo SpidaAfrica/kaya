@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
 import React, { useCallback, useEffect } from "react";

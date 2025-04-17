@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import React, { useCallback } from "react";
 import clsx from "clsx";
 // import Image, { StaticImageData } from "next/image";
