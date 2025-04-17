@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { DeliveryBottomCorner } from "@/assets";
 import Image from "next/image";
 import React, { PropsWithChildren } from "react";

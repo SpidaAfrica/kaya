@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import React, { PropsWithChildren } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";

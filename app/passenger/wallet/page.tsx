@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { useEffect } from "react";
 import { CardChip, WalletBanner } from "@/assets";
 import Image from "next/image";

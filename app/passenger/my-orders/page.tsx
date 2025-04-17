@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import React, { Fragment, useEffect, useState } from "react";
 import {
   Select,

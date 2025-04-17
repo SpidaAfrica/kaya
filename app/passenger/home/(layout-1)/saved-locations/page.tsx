@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { OrderCard_1, SAVED_LOCATION_PAGES } from "@/app/shared";
 import { AfroGirl } from "@/assets";
 import Image from "next/image";

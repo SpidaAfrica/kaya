@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import NavLink from "@/components/Navlink";
 import { cn } from "@/lib/utils";
 import React, { PropsWithChildren } from "react";

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
 import React from "react";

@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { redirect } from "next/navigation";
 import Splash from "../components/Splash";
 import { useEffect } from "react";

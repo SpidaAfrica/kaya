@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import clsx from "clsx";
 import { useState } from "react";

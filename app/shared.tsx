@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import { cn } from "@/lib/utils";
 import { ChevronRight, Clock12, Minus, Plus, X } from "lucide-react";

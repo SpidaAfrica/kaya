@@ -1,4 +1,5 @@
 // "use client";
+export const dynamic = "force-dynamic";
 // import FormInput from "@/components/FormInput";
 // import { Button } from "@/components/ui/button";
 // import { Label } from "@/components/ui/label";
@@ -113,6 +114,7 @@
 // }
 
 "use client";
+export const dynamic = "force-dynamic";
 
 import React from "react";
 import Link from "next/link";

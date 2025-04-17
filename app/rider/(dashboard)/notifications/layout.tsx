@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { NotificationsLayout } from "@/app/shared";
 import React, { PropsWithChildren } from "react";
 

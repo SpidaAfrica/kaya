@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import RouteTracker from "@/lib/utils/route-tracker";
 import React, { PropsWithChildren } from "react";
 import { AppLayout } from "../layouts/app-layout";

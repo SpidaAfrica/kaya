@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 
 import { CustomTextArea } from "@/components/CustomTextarea";
 import { Button } from "@/components/ui/button";
