@@ -297,20 +297,23 @@ export function Notifications() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const userId = sessionStorage.getItem("userId"); // or get from sessionStorage, cookies, etc.
-
-    fetch(`https://jbuit.org/api/notifications.php?user_id=${userId}`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (data.status === "success") {
-          setNotifications(data.data);
-        }
-        setLoading(false);
-      })
-      .catch(() => {
-        setLoading(false);
-      });
+    if (typeof window !== "undefined") {
+      const userId = sessionStorage.getItem("userId");
+  
+      fetch(`https://jbuit.org/api/notifications.php?user_id=${userId}`)
+        .then((res) => res.json())
+        .then((data) => {
+          if (data.status === "success") {
+            setNotifications(data.data);
+          }
+          setLoading(false);
+        })
+        .catch(() => {
+          setLoading(false);
+        });
+    }
   }, []);
+
 
   if (loading) return <p className="text-center">Loading...</p>;
 
