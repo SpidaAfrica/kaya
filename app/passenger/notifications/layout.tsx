@@ -1,0 +1,32 @@
+"use client";
+import { NotificationsLayout } from "@/app/shared";
+import React, { PropsWithChildren } from "react";
+
+const userType = "passenger";
+const route = "notifications";
+
+const NOTIFICATIONS_LINKS = [
+  {
+    title: "All Notifications",
+    url: `/${userType}/${route}/all-notifications`,
+  },
+  {
+    title: "Orders",
+    url: `/${userType}/${route}/orders`,
+  },
+
+  {
+    title: "Payments",
+    url: `/${userType}/${route}/payments`,
+  },
+];
+
+export default function PassengerNotificationsLayout({
+  children,
+}: PropsWithChildren) {
+  return (
+    <NotificationsLayout links={NOTIFICATIONS_LINKS}>
+      {children}
+    </NotificationsLayout>
+  );
+}
