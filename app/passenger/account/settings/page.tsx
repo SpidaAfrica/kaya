@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import CountryPicker from "@/components/CountryPicker";
 import FormInput from "@/components/FormInput";
 import SuccessModal from "@/components/Overlays/SuccessModal";
