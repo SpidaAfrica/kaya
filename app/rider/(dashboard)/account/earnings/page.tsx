@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import React from "react";
