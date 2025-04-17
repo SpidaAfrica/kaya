@@ -1,5 +1,5 @@
 "use client";
-
+export const dynamic = "force-dynamic";
 import React from "react";
 import Image from "next/image";
 import AuthForm from "../riderAuth";
