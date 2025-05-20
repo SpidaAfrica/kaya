@@ -247,7 +247,7 @@ export function DeliveryDetails({
                   Confirm Delivery
                 </Link>
                 */}
-                <Link href={"/passenger/home/"}>
+                <Link href={"/passenger/home/ride-actions"}>
                   Confirm Delivery
                 </Link>
               </Button>
